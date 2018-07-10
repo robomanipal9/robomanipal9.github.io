@@ -13,6 +13,8 @@ header{
   background: black;
   background-attachment: fixed;
 }
+ 
+
 
 #logo{
   display: block;
@@ -51,3 +53,5 @@ section{
   }
 
 }
+
+
