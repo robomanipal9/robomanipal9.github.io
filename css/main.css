@@ -10,7 +10,7 @@ header{
   margin-top:50px;
   position: relative;
   height: 95vh;
-  background: linear-gradient(to bottom,  #ffffff 0%, #000000 35%);
+  background: black;
   background-attachment: fixed;
 }
 
