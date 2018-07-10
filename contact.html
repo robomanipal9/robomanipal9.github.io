@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CREATOR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
+  <!--THEME-->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+
+</head>
+
+<body id="index">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#"><img src="images/Frontparallax/navbar.png" alt="ROBOMANIPAL" style ="height:250%"></a>
+      </div>
+      <div class="borderYtoX collapse navbar-collapse" id="myNavbar">
+        <ul class=" nav navbar-nav navbar-right">
+          <li><a href="index.html">ABOUT</a></li>
+          <li><a href="project.html">WORK</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="whole-container">
+    <div class="container_map">
+      <header class="parallaxcont">
+        <div class="layer"></div>
+        <div class="content">
+          <h1>CONTACT US</h1>
+        </div>
+        <a href="javascript:" id="return-to-top" class="contact-info"><i class="fa fa-chevron-down"></i></a>
+      </header>
+    </div>
+    <div class="contact">
+      <div class="container-fluid bg-grey">
+        <h1 class="text-center heading">GET TO KNOW US</h1>
+        <div class="row">
+          <div class="col-sm-5 fa-problem">
+            <div class="row ">
+              <div class="col-xs-3">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </div>
+              <div class="col-xs-7">
+                <h3>JON SNOW IS SON OF LYANNA</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="col-xs-7">
+                <h3>JON SNOW IS SON OF LYANNA</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="col-xs-7">
+                <h3>JON SNOW IS SON OF LYANNA</h3>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-7">
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <input class="form-control" id="name" name="name" placeholder="DRAGONS WHY!!!!!!" type="text" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <input class="form-control" id="phone" name="phone" placeholder="Phone Number" type="text" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+              <div class="col-sm-12 form-group loginbox">
+                <button class="btn btn-default pull-right effect-button text-center" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-distributed">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center companyhead">
+          <div class="space">
+            <h3>ROBO<span>MANIPAL</span></h3>
+            <div class="space">
+              <p class="footer-links">
+                <a href="#">TYRON</a> |
+                <a href="#">LANISTER</a> |
+                <a href="#">LYANNA</a> |
+                <a href="#">JON</a> |
+                <a href="#">TARGAREAN</a> |
+                <a href="#">COUSINS</a>
+              </p>
+              <div class="space">
+                <div class="footer-icons">
+
+                  <a href="#"><i class="fa fa-facebook" style="font-size:24px"></i></a>
+                  <a href="#"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+                  <a href="#"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                  <a href="#"><i class="fa fa-youtube" style="font-size:24px"></i></a>
+                  <div class="space">
+                  </div>
+                  <p class="footer-company-name">Contributors @ <span>CODEBLADE</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script>
+    $(document).ready(function() {
+      // Transition effect for navbar
+      $(window).scroll(function() {
+        // checks if window is scrolled more than 500px, adds/removes solid class
+        if ($(this).scrollTop() > 500) {
+          $('.navbar').addClass('solid');
+        } else {
+          $('.navbar').removeClass('solid');
+        }
+      });
+    });
+    $(document).ready(function() {
+      $('#return-to-top').click(function() {
+        $("html,body").animate({
+          scrollTop: $('.contact-info').offset().top
+        }, 600);
+        return false;
+      });
+    });
+
+    /*FOR SLIDING THING*/
+    $(window).scroll(function() {
+      $(".slideanim").each(function() {
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+  margin-top:50px;
+  position: relative;
+  height: 95vh;
+  background: linear-gradient(to bottom,  #ffffff 0%, #000000 35%);
+  background-attachment: fixed;
+}
+
+#logo{
+  display: block;
+  margin: auto;
+  position: relative;
+  top:30%;
+}
+#logo-sb{
+  display:block;
+  position: absolute;
+  top:0;
+
+}
+.layer{
+  width:100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  will-change: transform;
+}
+
+section{
+  position: relative;
+  height: 1500px;
+  background: #111628;
+}
+@media screen and (max-width:500px) {
+ header{
+   height:50vh;
+ }
+
+}
+@media screen and (max-width: 800px) {
+  header{
+    height:50vh;
+  }
+
+}

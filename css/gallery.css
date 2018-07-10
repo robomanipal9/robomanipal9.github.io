@@ -1,0 +1,95 @@
+body {
+  background: #dedede;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.scction-ourTeam{
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.ourTeam-hedding {
+  background: black;
+  height: 250px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.ourTeam-hedding h1 {
+  color: #fff;
+  padding: 70px 0px 0px 0px;
+  font-weight: 900;
+  z-index: 1;
+  margin-top: 300px;
+}
+
+.whole-container {
+  z-index: 9;
+  position: relative;
+  background: #dedede;
+}
+.letter h2{
+  margin-top: 80px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 40px;
+  font: normal 50px 'Pangolin';
+}
+.slideanim {
+  visibility: hidden;
+}
+.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image-container{
+  margin-top:20px;
+}
+.text-container{
+  padding:10px 5px 10px 5px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(167, 167, 167, 0.71);
+    .caption{
+      color: white;
+    }
+}
+
+.tz-gallery .caption{
+    padding: 10px 20px;
+    text-align: center;
+    font: normal 36px 'Open Sans';
+}
+
+.tz-gallery .caption h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    color: black;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CREATOR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
+  <!--THEME-->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body id="index">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#"><img src="images/Frontparallax/navbar.png" alt="ROBOMANIPAL"></a>
+      </div>
+      <div class="borderYtoX collapse navbar-collapse" id="myNavbar">
+        <ul class=" nav navbar-nav navbar-right">
+          <li><a href="main.html">ABOUT</a></li>
+          <li><a href="project.html">WORK</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <header>
+        <img id="layer5" class="layer" data-offset="0.8" src="images/Frontparallax/sparkexp2.png"/>
+        <img id="logo-sb" class="layer" data-offset="0.7" src="images/Frontparallax/logobd.png"/>
+        <img id="logo" class="layer" data-offset="-0.5" src="images/Frontparallax/logoce.png"/>
+        <img id="layer4" class="layer" data-offset="0.8" src="images/Frontparallax/sparks_explosion_02_00041.png"/>
+        <img id="layer3" class="layer" data-offset="-0.5" src="images/Frontparallax/spexp3.png"/>
+      </header>
+      <section>
+      </section>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+      <script>
+
+      var layers = [],
+          layerElements = document.getElementsByClassName('layer'),
+          _scrollY = window.scrollY;
+
+        function init() {
+          for (var i = 0; i < layerElements.length; i += 1) {
+            var el = layerElements[i];
+            var offset = layerElements[i].dataset.offset;
+            layers.push({el: el, y: 0, offset: offset});
+          }
+
+          window.addEventListener('scroll', handle_scroll);
+          requestAnimationFrame(animate);
+        }
+
+        function handle_scroll(e) {
+          _scrollY = window.scrollY;
+          animateTween();
+        }
+
+
+        function animateTween() {
+          for (var i = 0; i < layers.length; i += 1) {
+            var oldY = layers[i].y;
+            layers[i].y = _scrollY * layers[i].offset;
+
+              TweenMax.to(layers[i].el, 0.5, {
+                y: layers[i].y,
+                overwrite: 'all'
+              });
+          }
+        }
+
+
+        function animate() {
+          _scrollY = window.scrollY;
+
+          for (var i = 0; i < layers.length; i += 1) {
+            var oldY = layers[i].y;
+            layers[i].y = _scrollY * layers[i].offset;
+
+            if (oldY !== layers[i].y) {
+              layers[i].el.style.transform = 'translateY(' + layers[i].y + 'px)';
+            }
+          }
+
+          requestAnimationFrame(animate);
+        }
+
+        init();
+      </script>
+</body>
+
+</html>

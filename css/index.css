@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: black;
+  z-index: 999999;
+  border: 0;
+  font-size: 15px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:100%;
+}
+.navbar-brand img{
+  padding:none;
+  margin:none;
+  height:250%;
+}
+.navbar-nav>li {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: yellow;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff;
+}
+
+a:hover {
+  color: white;
+}
+
+/* Border from Y to X  */
+
+.borderYtoX a:before, .borderYtoX a:after {
+  position: absolute;
+  opacity: 0.9;
+  height: 100%;
+  content: ' ';
+  transition: all 0.3s;
+}
+
+.borderYtoX a:before {
+  left: 0px;
+  top: 0px;
+}
+
+.borderYtoX a:after {
+  right: 0px;
+  bottom: 0px;
+}
+
+.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
+  background-color: yellow;
+  opacity: 0.9;
+  height: 2px;
+  width: 100%;
+}
+@media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+@media(max-width:480px) {
+  .navbar-brand img{
+    height: 150%;
+  }
+}
