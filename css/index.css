@@ -4,6 +4,7 @@ body {
 }
 
 .navbar {
+  
   margin-bottom: 0;
   background-color: black;
   z-index: 999999;
@@ -39,6 +40,88 @@ body {
 .navbar li a, .navbar .navbar-brand {
   color: #fff;
 }
+
+.about p.para {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: center;
+  padding: 0 20px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.about-grid h4 {
+  font-size: 25px;
+  color: #0161A5;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.about-grid p {
+  line-height: 27px;
+  text-align: center;
+  color: #888b90;
+}
+
+/*-- Headings --*/
+
+.about h1, .agency h2, .services h3, .gallery h3, .clients h3, .team h3, .contact h3 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: inherit;
+  font-size: 40px;
+  font-weight: 600;
+  color: #003b64;
+}
+.about {
+  background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-right:0px;
+
+}
+.about p {
+  margin-right: 15px;
+
+}
+.services h3{
+  margin-top: 65px;
+}
+
+.agency h2, .clients h3, .contact h3 {
+  color: #FFFFFF;
+}
+
+/*-- //Headings --*/
+
+/*-- Agency --*/
+
+.agency {
+  background-color: #6689a2;
+}
+
+.agency-grid {
+  text-align: center;
+}
+
+.agency-grid-img img {
+  width: 100px;
+}
+
+.agency-grid h4 {
+  color: #0f0f0f;
+  margin-top: 50px;
+  font-size: 25px;
+ }
+
+.agency-grid p {
+  margin-top: 20px;
+  color: #0f0f0f;
+  line-height: 27px;
+}
+
+/*-- //Agency --*/
+
 
 a:hover {
   color: white;

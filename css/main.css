@@ -7,7 +7,7 @@ body{
 }
 
 header{
-  margin-top:50px;
+  margin-top:0px;
   position: relative;
   height: 95vh;
   background: black;
@@ -36,10 +36,36 @@ header{
   will-change: transform;
 }
 
+
 section{
   position: relative;
   height: 1500px;
-  background: #111628;
+  background: white;
+}
+.agency {
+  background-color: lightgrey ;
+ 
+}
+
+.agency-grid {
+  text-align: center;
+}
+
+.agency-grid-img img {
+  width: 100px;
+}
+
+.agency-grid h4 {
+  color: #0f0f0f;
+  margin-top: 50px;
+  font-size: 25px;
+ 
+}
+
+.agency-grid p {
+  margin-top: 20px;
+  color: #0f0f0f;
+  line-height: 27px;
 }
 @media screen and (max-width:500px) {
  header{
