@@ -65,8 +65,9 @@ blockquote p::after {
   position:relative;
 }
 .section2 h1 {
-  font-size: 25px;
-  color: black;
+  font-size: 18px;
+  margin:5px;
+  color: grey;
   margin: 0;
   display: inline-block;
   z-index:10;
@@ -79,8 +80,9 @@ blockquote p::after {
 }
 
 .section2 p {
-  font-size: 25px;
+  font-size: 18px;
   background-color: black;
+  margin:5px;
   display: inline-block;
   color: white;
   padding: 5px 15px;
@@ -161,7 +163,10 @@ blockquote p::after {
   }
 }
   .team-thing .section2 p {
-    font-size:25px;
+    font-size:20px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .section-gear img {
     height:170px;
