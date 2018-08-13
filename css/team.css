@@ -1,5 +1,4 @@
 body {
-  background: #dedede;
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
@@ -8,7 +7,8 @@ body {
 .whole-container {
   z-index: 99999;
   position: relative;
-  background: #dedede;
+  background-image: url("../images/back2.jpg");
+  background-size: cover;
 }
 .row {
   padding-bottom: 1%;
@@ -17,6 +17,7 @@ body {
   margin-top: 70px;
 
 }
+
 .section-ourTeam .meet h1{
   font-size: 40px;
   font: normal 40px 'Playfair Display';
@@ -51,8 +52,8 @@ blockquote p::after {
 .section-gear img {
   position: relative;
   z-index:-1;
-  height:200px;
-  width: 200px;
+  height:250px;
+  width: 250px;
   background-image: url("../images/para/gear.png");
   background-position: center;
   background-size: cover;
@@ -177,5 +178,13 @@ blockquote p::after {
     height:350px;
   }
   .section2 p{
+  }
+}
+@media(min-width:1000px) {
+  .top-1{
+    transform: translateX(25%);
+  }
+  .top-2{
+    transform: translateX(-25%);
   }
 }

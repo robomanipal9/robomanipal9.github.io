@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-  
+
   margin-bottom: 0;
   background-color: black;
   z-index: 999999;
@@ -75,8 +75,6 @@ body {
   color: #003b64;
 }
 .about {
-  background-color: white;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    margin-right:0px;
 
 }
@@ -153,7 +151,93 @@ a:hover {
   height: 2px;
   width: 100%;
 }
-@media (max-width: 990px) {
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+footer {
+  background: black;
+  color: white;
+  padding: 40px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer .space {
+  margin-bottom: 20px;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Cookie';
+  margin: 0;
+}
+
+.fa-facebook {
+  font-size: 24px;
+  color: #3B5998;
+  padding: 14px;
+  background: white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.fa-github {
+  font-size: 24px;
+  color: white;
+  padding: 14px;
+  background: #1DA1F2;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.fa-instagram {
+  color: white;
+  padding: 14px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  font-size: 24px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.fa-youtube {
+  color: white;
+  padding: 14px;
+  background: red;
+  border-radius: 200px;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.fa:hover {
+  background: white;
+  color: black;
+}
+
+.footer-distributed h3 span {
+  color: #5383d3;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-name span {
+  color: #65a6ff;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+}
+@media (max-width: 1000px) {
     .navbar-header {
         float: none;
     }
@@ -189,8 +273,35 @@ a:hover {
         display:block !important;
     }
 }
-@media(max-width:480px) {
+@media(max-width:500px) {
   .navbar-brand img{
-    height: 150%;
+    height: 130%;
   }
+  footer p{
+      font-size: 10px;
+  }
+  .footer-distributed h3 {
+    font: normal 26px 'Cookie';
+    margin: 0;
+  }
+  .fa-facebook {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .fa-github {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .fa-instagram {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .fa-youtube {
+    padding: 10px;
+    font-size: 15px;
+  }
+
 }
