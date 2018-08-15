@@ -7,7 +7,7 @@ body {
 .whole-container {
   z-index: 99999;
   position: relative;
-  background-image: url("../images/back2.jpg");
+  background-image: url("../images/back2.png");
   background-size: cover;
   background-attachment: fixed;
 }
