@@ -54,12 +54,12 @@
   </div>
 
   <div class="whole-container">
-    <button class="tablink text-center" onclick="openPage('Home', this, '#D3D3D3')" id="defaultOpen">PROJECTS</button>
-    <button class="tablink text-center" onclick="openPage('News', this, '#D3D3D3')">EVENTS</button>
-    <button class="tablink text-center" onclick="openPage('Contact', this, '#D3D3D3')">CONTEST</button>
-    <button class="tablink text-center" onclick="openPage('About', this, '#D3D3D3')">OTHER</button>
+    <button class="tablink text-center" onclick="openPage('Project', this, '#D3D3D3')" id="defaultOpen">PROJECTS</button>
+    <button class="tablink text-center" onclick="openPage('Event', this, '#D3D3D3')">EVENTS</button>
+    <button class="tablink text-center" onclick="openPage('Contest', this, '#D3D3D3')">CONTEST</button>
+    <button class="tablink text-center" onclick="openPage('Other', this, '#D3D3D3')">OTHER</button>
 
-    <div id="Home" class="tabcontent">
+    <div id="Project" class="tabcontent">
       <div class="container">
 
         <div class="row feature">
@@ -160,7 +160,7 @@
 
       </div>
     </div>
-    <div id="News" class="tabcontent">
+    <div id="Event" class="tabcontent">
       <div class="container">
         <div class="row feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
@@ -179,7 +179,7 @@
       </div>
     </div>
 
-    <div id="Contact" class="tabcontent">
+    <div id="Contest" class="tabcontent">
       <div class="container">
         <div class="row feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
@@ -210,7 +210,7 @@
       </div>
     </div>
 
-    <div id="About" class="tabcontent">
+    <div id="Other" class="tabcontent">
       <div class="container">
         <div class="row feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
@@ -278,7 +278,45 @@
       });
     });
   </script>
+  <script>
+     /*FOR SLIDING THING*/
+     $(window).scroll(function() {
+       $(".slideanim").each(function() {
+         var pos = $(this).offset().top;
 
+         var winTop = $(window).scrollTop();
+         if (pos < winTop + 700) {
+           $(this).addClass("slide");
+         }
+       });
+     });
+   </script>
+
+   <script>
+     $(window).scroll(function() {
+       $(".slideanimup").each(function() {
+         var pos = $(this).offset().top;
+
+         var winTop = $(window).scrollTop();
+         if (pos < winTop + 700) {
+           $(this).addClass("slideup");
+         }
+       });
+     });
+   </script>
+
+   <script>
+     $(window).scroll(function() {
+       $(".slideanimright").each(function() {
+         var pos = $(this).offset().top;
+
+         var winTop = $(window).scrollTop();
+         if (pos < winTop + 700) {
+           $(this).addClass("slideright");
+         }
+       });
+     });
+   </script>
   <script>
     function openPage(pageName, elmnt, color) {
       var i, tabcontent, tablinks;

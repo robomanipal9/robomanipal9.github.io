@@ -28,8 +28,8 @@ header{
   font-size: 70px;
   margin: none;
   padding: none;
-  caret-color: white;
 }
+
 #typed {
   caret-color: white;
 }
@@ -66,35 +66,66 @@ section{
 }
 
 .agency-grid-img img {
-  width: 100px;
+  width: 150px;
 }
 
 .agency-grid h4 {
   color: #0f0f0f;
-  margin-top: 50px;
   font-size: 25px;
-
+  font-weight: bold;
 }
 .agency-grid-cont .SUBSYSTEMS h2{
   color: black;
 }
 .agency-grid p {
-  margin-top: 20px;
   color: #0f0f0f;
   line-height: 27px;
+  font-size: 20px;
 }
 .agency-grid-cont{
   background-color:lightgrey;
-  padding-bottom:40px;
-  padding-top: 40px;
+  padding-top:60px;
+  padding-bottom:100px;
 }
-@media screen and (max-width:500px) {
+
+.agency-grid-content{
+  padding-left:60px;
+  padding-right:60px;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: black;
+}
+
+.carousel-indicators li {
+    border-color: black;
+    transform: translateX(50%);
+}
+
+.carousel-indicators li.active {
+    background-color: black;
+}
+
+@media screen and (min-width:1000px) {
+  .agency-grid-content{
+    right:150px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .content h1 {
+    font-size: 60px;
+  }
+  .agency-grid-cont{
+    height:600px;
+  }
+}
+@media(max-width:500px) {
   .content h1 {
     font-size: 40px;
   }
-}
-@media screen and (max-width: 800px) {
-  .content h1 {
-    font-size: 60px;
+  .agency-grid-cont{
+    height:850px;
   }
 }

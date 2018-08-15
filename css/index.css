@@ -3,10 +3,9 @@ body {
   padding: 0;
 }
 html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
 }
-
 .navbar {
 
   margin-bottom: 0;
@@ -93,37 +92,102 @@ html, body {
 .agency h2, .clients h3, .contact h3 {
   color: #FFFFFF;
 }
+.slideanim {
+    visibility: hidden;
+  }
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateX(-40%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
 
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-40%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0%);
+    }
+  }
+  /* SLIDE UP*/
+  .slideanimup {
+    visibility: hidden;
+  }
+  .slideup {
+    animation-name: slideup;
+    -webkit-animation-name: slideup;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slideup {
+    0% {
+      opacity: 0;
+      transform: translateY(-40%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  @-webkit-keyframes slideup {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-40%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  /*SLIDE RIGHT*/
+  .slideanimright {
+    visibility: hidden;
+  }
+  .slideright {
+    animation-name: slideright;
+    -webkit-animation-name: slideright;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slideright {
+    0% {
+      opacity: 0;
+      transform: translateX(40%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+  @-webkit-keyframes slideright {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(40%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0%);
+    }
+  }
 /*-- //Headings --*/
-
-/*-- Agency --*/
-
-.agency {
-  background-color: #6689a2;
-}
-
-.agency-grid {
-  text-align: center;
-}
-
-.agency-grid-img img {
-  width: 100px;
-}
-
-.agency-grid h4 {
-  color: #0f0f0f;
-  margin-top: 50px;
-  font-size: 25px;
- }
-
-.agency-grid p {
-  margin-top: 20px;
-  color: #0f0f0f;
-  line-height: 27px;
-}
-
-/*-- //Agency --*/
-
 
 a:hover {
   color: white;

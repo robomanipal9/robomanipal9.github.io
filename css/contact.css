@@ -104,7 +104,7 @@ p {
 .contact-back{
   background-color: white;
   margin-bottom: 30px;
-  margin-left: 10px;
+  margin: 10px;
   border-radius: 20px;
   padding: 15px;
   border: 1px solid grey;
@@ -292,7 +292,7 @@ p {
 }
 @media(max-width:500px) {
   .content h1 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
   }
   .parallaxcont {
@@ -301,7 +301,7 @@ p {
     margin:none;
   }
   .heading {
-    font-size: 25px;
+    font-size: 20px;
     padding:20px;
   }
 .container_map #return-to-top {
