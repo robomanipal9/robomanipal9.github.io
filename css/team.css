@@ -20,26 +20,29 @@ body {
 }
 
 .section-ourTeam .meet h1{
+  color: white;
   font-size: 40px;
   font: normal 40px 'Playfair Display';
 }
 .section-ourTeam .textp p{
+  color: white;
   font-size: 25px ;
   margin-top: 10px;;
 
 }
 blockquote p::before,
 blockquote p::after {
-
+    color: white;
    content: "“";
    font-family: Georgia;
    font-size: 8rem;
    margin: -3rem -1px 0px -3rem;
    position: absolute;
-   opacity: 0.5;
+   opacity: 1;
 }
 
 blockquote p::after {
+   color: white;
    content: "”";
    margin: -3rem -4rem 0 0;
 }

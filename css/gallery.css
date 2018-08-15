@@ -10,7 +10,8 @@ body {
   padding-left:0;
 }
 .ourTeam-hedding {
-  background: black;
+  background-image: url("../images/gal.jpg");
+
   height: 250px;
   width: 100%;
   background-size: 100%;

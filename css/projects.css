@@ -1,5 +1,5 @@
 body, html {
-  background: black;
+  background: white;
   margin:0;
   width:100%;
   padding:0;
@@ -20,11 +20,13 @@ body, html {
   background-size: cover;
   width:100%;
   margin-top: 40px;
+  
 }
 
 .heading h1{
-  color: white;
+  color: black;
   margin-top: 150px;
+  
 }
 .tablink {
   margin:0;

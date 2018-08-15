@@ -226,7 +226,8 @@ footer p{
 
 }
 footer {
-  background: black;
+  background-image: url("../images/ag1.jpg");
+
   color: white;
   padding: 40px 0;
   bottom: 0;
