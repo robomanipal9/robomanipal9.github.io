@@ -20,13 +20,13 @@ body, html {
   background-size: cover;
   width:100%;
   margin-top: 40px;
-  
+  opacity: 0.6;
 }
 
 .heading h1{
   color: black;
   margin-top: 150px;
-  
+  opacity: 1;
 }
 .tablink {
   margin:0;
