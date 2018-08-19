@@ -26,7 +26,8 @@ body, html {
 .heading h1{
   color: black;
   margin-top: 150px;
-  opacity: 1;
+  font-weight: bold;
+  font-weight: 400;
 }
 .tablink {
   margin:0;
@@ -128,7 +129,6 @@ body, html {
     margin-top:20px;
   }
   .heading h1{
-    color: white;
     margin-top: 100px;
     font-size: 30px
   }

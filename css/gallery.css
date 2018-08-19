@@ -9,9 +9,8 @@ body {
   padding-right:0;
   padding-left:0;
 }
-.ourTeam-hedding {
+.section-ourTeam {
   background-image: url("../images/gal.jpg");
-
   height: 250px;
   width: 100%;
   background-size: 100%;
@@ -19,20 +18,12 @@ body {
   margin-top: 50px;
 }
 
-.ourTeam-hedding h1 {
-  color: #fff;
-  padding: 70px 0px 0px 0px;
-  font-weight: 900;
-  z-index: 1;
-  margin-top: 300px;
-}
-
 .whole-container {
   z-index: 9;
   position: relative;
   background-image: url("../images/gallery/bg.jpg");
   background: #dedede;
-  
+
 }
 .letter h2{
   margin-top: 80px;
@@ -49,7 +40,6 @@ body {
   margin:0;
   width: 100%;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-right:0;
     padding-left:0;
     padding-top: 0;
@@ -61,11 +51,8 @@ body {
 .text-container{
   padding:10px 5px 10px 5px;
 }
-.lightbox img{
-  border-bottom: 4px solid black;
-}
 .tz-gallery {
-    padding: 40px;
+    padding: 20px;
 }
 
 .tz-gallery .thumbnail {
@@ -101,4 +88,17 @@ body {
 
 .baguetteBox-button {
     background-color: transparent !important;
+}
+@media(max-width:500px) {
+  .letter h2{
+    margin-top: 30px;
+    font: normal 20px 'Open Sans';
+  }
+  .section-ourTeam {
+    height: 100px;
+    margin: none;
+  }
+  .tz-gallery {
+      padding: 30px;
+  }
 }

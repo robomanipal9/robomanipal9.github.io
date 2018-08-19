@@ -1,5 +1,6 @@
 body {
   font-size: 1.5em;
+  background: #dedede;
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -7,7 +8,6 @@ body {
 .whole-container {
   z-index: 99999;
   position: relative;
-  background-image: url("../images/back2.png");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -20,19 +20,20 @@ body {
 }
 
 .section-ourTeam .meet h1{
-  color: white;
+  margin-top: 30px;
+  color: black;
   font-size: 40px;
   font: normal 40px 'Playfair Display';
 }
 .section-ourTeam .textp p{
-  color: white;
+  color: black;
   font-size: 25px ;
   margin-top: 10px;;
 
 }
 blockquote p::before,
 blockquote p::after {
-    color: white;
+    color: black;
    content: "“";
    font-family: Georgia;
    font-size: 8rem;
@@ -42,12 +43,12 @@ blockquote p::after {
 }
 
 blockquote p::after {
-   color: white;
+   color: black;
    content: "”";
    margin: -3rem -4rem 0 0;
 }
 .ourTeam-hedding h1 {
-  color: #fff;
+  color: black;
   padding: 70px 0px 0px 0px;
   font-weight: 900;
   z-index: 1;
@@ -177,11 +178,34 @@ blockquote p::after {
     height:170px;
     width: 170px;
   }
-@media(max-width:200px) {
+@media(max-width:500px) {
   .team-thing .ourTeam-box{
     height:350px;
   }
-  .section2 p{
+  .section-ourTeam .meet h1{
+    font: normal 30px 'Playfair Display';
+  }
+  .section-ourTeam .textp p{
+    color: black;
+    font-size: 18px ;
+    margin-top: 10px;;
+
+  }
+  blockquote p::before,
+  blockquote p::after {
+      color: black;
+     content: "“";
+     font-family: Georgia;
+     font-size: 4rem;
+     margin: -3rem -1px 0px -3rem;
+     position: absolute;
+     opacity: 1;
+  }
+
+  blockquote p::after {
+     color: black;
+     content: "”";
+     margin: -3rem -4rem 0 0;
   }
 }
 @media(min-width:1000px) {
