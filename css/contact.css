@@ -82,7 +82,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #dedede;
   font-size: 70px;
   margin: none;
   padding: none;
@@ -90,11 +90,11 @@ body {
 }
 
 .contact {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .heading {
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 20px;
 }
 
@@ -102,12 +102,12 @@ p {
   font-size: 18px;
 }
 .contact-back{
-  background-color: white;
-  margin-bottom: 30px;
+  background-color: #dedede;
+  margin-bottom: 10px;
   margin: 10px;
-  border-radius: 20px;
-  padding: 15px;
-  border: 1px solid grey;
+  
+  padding: 10px;
+ 
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
@@ -116,12 +116,7 @@ p {
 .contact-back:hover{
   border: 2px solid black;
 }
-.contact-back img{
-  top:0;
-  height:100%;
-  width:100%;
-  position:relative;
-}
+
 .fa-problem i:hover{
   color: #000000;
   background-color: #717171;
@@ -165,7 +160,7 @@ p {
   font-family: inherit;
   font-size: 20px;
   font-weight: 600;
-  color: #003b64;
+  color: #000000;
 }
 .btn:active {
   border: none;
@@ -308,17 +303,13 @@ p {
   top: 270px;
   left: 50%;
 }
-.contact-back img{
-  top:0;
-  height:70px;
-  width:70px;
-}
+
 .contact-back h3{
   font-size: 14px;
 }
 }
 @media(min-width:1200px) {
   .content h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
