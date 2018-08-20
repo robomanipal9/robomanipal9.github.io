@@ -58,7 +58,36 @@ body, html {
   padding: 100px 10px;
 
 }
+#load a{
+    display: block;
+}
+#load {
 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 22px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 1px 1px #ccc;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+}
+#load:hover{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+}
 #Project{
   background-color: lightgrey;
 }
@@ -93,6 +122,9 @@ body, html {
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
   visibility: visible;
+}
+.proj-feature{
+  display:none;
 }
 @keyframes slide {
   0% {
@@ -131,5 +163,8 @@ body, html {
   .heading h1{
     margin-top: 100px;
     font-size: 30px
+  }
+  #load {
+      font-size: 18px;
   }
 }

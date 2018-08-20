@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand" href="index.html"><img src="images/Frontparallax/navbar.png" alt="ROBOMANIPAL"></a>
+        <a class="navbar-brand" href="#"><img src="images/Frontparallax/navbar.png" alt="ROBOMANIPAL"></a>
       </div>
       <div class="borderYtoX collapse navbar-collapse" id="myNavbar">
         <ul class=" nav navbar-nav navbar-right">
@@ -63,7 +63,7 @@
     <div id="Project" class="tabcontent">
       <div class="container">
 
-        <div class="row feature">
+        <div class="row feature proj-feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/electromyography.jpg" alt="bot_here">
           </div>
@@ -74,7 +74,7 @@
           </div>
         </div>
 
-        <div class="row feature">
+        <div class="row feature proj-feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/stretcher.jpg" alt="bot_here">
           </div>
@@ -86,7 +86,7 @@
         </div>
 
 
-        <div class="row feature">
+        <div class="row feature proj-feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/homeautomation.jpg" alt="bot_here">
           </div>
@@ -96,7 +96,7 @@
           </div>
         </div>
 
-        <div class="row feature">
+        <div class="row feature proj-feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/waterfilter.jpg" alt="bot_here">
           </div>
@@ -111,7 +111,7 @@
 
 
 
-        <div class="row feature">
+        <div class="row feature proj-feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/atb.png" alt="bot_here">
           </div>
@@ -121,7 +121,7 @@
           </div>
         </div>
 
-        <div class="row feature">
+        <div class="row feature proj-feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/byped.png" alt="bot_here">
           </div>
@@ -133,7 +133,7 @@ The aim of this project is to analyse and develop an algorithm for walking for a
         </div>
 
 
-        <div class="row feature">
+        <div class="row feature proj-feature">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/chopper circuit.png" alt="bot_here">
           </div>
@@ -143,7 +143,7 @@ The aim of this project is to analyse and develop an algorithm for walking for a
               in the final bot. </p>
           </div>
         </div>
-        <div class="row feature">
+        <div class="row feature proj-feature ">
           <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/smart bot.png" alt="bot_here">
           </div>
@@ -153,14 +153,12 @@ The aim of this project is to analyse and develop an algorithm for walking for a
               kinematics. A genetic algorithm will be trained to attain walking motion.
             </p>
           </div>
+
         </div>
-
-
-
-
-
-
-      </div>
+        </div>
+      <div class="row text-center">
+      <a href="#" id="load" >Load More</a>
+    </div>
     </div>
     <div id="Event" class="tabcontent">
       <div class="container">
@@ -226,7 +224,7 @@ The aim of this project is to analyse and develop an algorithm for walking for a
         <div class="row feature">
          <div class="col-md-5 col-sm-12 text-center image slideanim">
             <img src="images/projects/smart_bot.jpg" alt="bot_here">
-          </div> 
+          </div>
           <div class="col-md-7 col-sm-12 text-center content">
             <p class="text-center">The first year students' recruitments will begin soon. Follow our social media pages to get more updates about the same. We will be recruiting for all the subsystems i.e. Coding, Electronics, Management, Mechanical. Stay Tuned.  </p>
           </div>
@@ -348,6 +346,19 @@ The aim of this project is to analyse and develop an algorithm for walking for a
       s1.setAttribute('crossorigin', '*');
       s0.parentNode.insertBefore(s1, s0);
     })();
+    $(function () {
+        $(".proj-feature").slice(0, 4).show();
+        $("#load").on('click', function (e) {
+            e.preventDefault();
+            $(".proj-feature:hidden").slice(0, 4).slideDown();
+            if ($(".proj-feature:hidden").length == 0) {
+                $("#load").fadeOut('slow');
+            }
+            $('html,body').animate({
+                scrollTop: $(this).offset().top
+            }, 1500);
+        });
+    });
   </script>
   <!--End of Tawk.to Script-->
 

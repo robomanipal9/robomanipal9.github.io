@@ -30,7 +30,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><img src="images/Frontparallax/navbar.png" alt="ROBOMANIPAL"></a>
+        <a class="navbar-brand" href="#"><img src="images/Frontparallax/navbar.png" alt="ROBOMANIPAL"></a>
       </div>
       <div class="borderYtoX collapse navbar-collapse" id="myNavbar">
         <ul class=" nav navbar-nav navbar-right">
@@ -52,7 +52,7 @@
    </div>
  </div>
 </div>
-  <div class="tz-gallery whole-container">
+   <div class="tz-gallery whole-container">
        <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="thumbnail polaroid image-container">
@@ -190,7 +190,13 @@
           </div>
           
       </div>
+      <div class="row text-center">
+      <a href="#" id="load" >Load More</a>
+    </div>
 </div>
+
+
+
 <footer class="footer-distributed">
 
   <div class="container">
@@ -241,6 +247,19 @@ $(document).ready( function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+});
+$(function () {
+    $(".polaroid").slice(0, 8).show();
+    $("#load").on('click', function (e) {
+        e.preventDefault();
+        $(".polaroid:hidden").slice(0, 4).slideDown();
+        if ($(".polaroid:hidden").length == 0) {
+            $("#load").fadeOut('slow');
+        }
+        $('html,body').animate({
+            scrollTop: $(this).offset().top
+        }, 1500);
+    });
 });
 </script>
 <!--Start of Tawk.to Script-->

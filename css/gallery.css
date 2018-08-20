@@ -41,8 +41,40 @@ body {
   width: 100%;
   background-color: white;
   padding-right:0;
-    padding-left:0;
-    padding-top: 0;
+  padding-left:0;
+  padding-top: 0;
+  display:none;
+}
+
+#load a{
+    display: block;
+}
+#load {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 22px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 1px 1px #ccc;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+}
+#load:hover{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
 }
 .image-container{
   margin-top:20px;
@@ -100,5 +132,8 @@ body {
   }
   .tz-gallery {
       padding: 30px;
+  }
+  #load {
+      font-size: 18px;
   }
 }
