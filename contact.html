@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>RoboManipal | Official robotics team of MAHE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
+  <!--THEME-->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+
+</head>
+
+<body id="index">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html"><img src="images/Frontparallax/navbar.png" alt="ROBOMANIPAL" ></a>
+      </div>
+      <div class="borderYtoX collapse navbar-collapse" id="myNavbar">
+        <ul class=" nav navbar-nav navbar-right">
+          <li><a href="index.html">ABOUT</a></li>
+          <li><a href="project.html">WORK</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="whole-container">
+    <div class="container_map">
+      <header class="parallaxcont">
+        <div class="layer"></div>
+        <div class="content">
+          <h1 class="text-center">CONTACT US</h1>
+        </div>
+        <a href="javascript:" id="return-to-top" class="contact-info"><i class="fa fa-chevron-down"></i></a>
+      </header>
+    </div>
+    <div class="contact">
+      <div class="container-fluid bg-grey">
+        <h1 class="text-center heading">GET TO KNOW US</h1>
+        <div class="row">
+
+          <div class="col-md-5 fa-problem">
+
+            <div class="row contact-back">
+              <div class="col-sm-3 col-xs-12 text-center">
+                
+              </div>
+              <div class="col-sm-7 col-xs-12 text-center">
+                <div class="row text-center">
+                 <h3 class="text-center">Contact</h3>
+                  <h3 class="text-center">Akash Ravindra-8660251817</h3>
+                  <h3 class="text-center">Aditya Gupta-9781249906</h3>
+                <h3 class="text-center" >Email</h3>
+                
+                <h3 class="text-center" >team.robomanipal@gmail.com</h3>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+
+          <div class="col-md-7">
+            <div class="map">
+              <div class="map-hover">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15528.150795925983!2d74.7919409!3d13.3479311!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x562b947300bbe444!2sRobomanipal+Workshop!5e0!3m2!1sen!2sin!4v1476911962666" allowfullscreen></iframe>
+                <div class="map-hover-1"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer-distributed">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center companyhead">
+          <div class="space">
+            <h3>ROBO<span>MANIPAL</span></h3>
+            <div class="space">
+              <p class="footer-links">
+                <a href="index.html">ABOUT</a> |
+                  <a href="project.html">WORK</a> |
+                  <a href="gallery.html">GALLERY</a> |
+                  <a href="team.html">TEAM</a> |
+                  <a href="contact.html">CONTACT</a>
+              </p>
+              <div class="space">
+                <div class="footer-icons">
+
+                  <a href="https://www.facebook.com/RoboManipal/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://github.com/RoboManipal-9-0"><i class="fa fa-github"></i></a>
+                    <a href="https://www.instagram.com/team.robomanipal"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCTbPo4SEzAb_BtcKik-hGpA"><i class="fa fa-youtube"></i></a>
+                  <div class="space">
+                  </div>
+                  <p class="footer-company-name">A <span> <a href="https://www.instagram.com/codeblade.tech">CODE BLADE </a></span>Creation </p>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script>
+    $(document).ready(function() {
+      // Transition effect for navbar
+      $(window).scroll(function() {
+        // checks if window is scrolled more than 500px, adds/removes solid class
+        if ($(this).scrollTop() > 500) {
+          $('.navbar').addClass('solid');
+        } else {
+          $('.navbar').removeClass('solid');
+        }
+      });
+    });
+    $(document).ready(function() {
+      $('#return-to-top').click(function() {
+        $("html,body").animate({
+          scrollTop: $('.contact-info').offset().top
+        }, 600);
+        return false;
+      });
+    });
+
+    /*FOR SLIDING THING*/
+    $(window).scroll(function() {
+      $(".slideanim").each(function() {
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
+    });
+  </script>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function() {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/5b65b89ddf040c3e9e0c4a80/default';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+</body>
+
+</html>
