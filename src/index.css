@@ -1,0 +1,580 @@
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+.bg-black {
+  background-color : rgba(0, 0, 0, 0.7);
+}
+
+.navlink {
+  padding-right: 0.4rem;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.navlink:hover {
+  color: #fff;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('./bg_main.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.headerimg {
+  position: relative;
+}
+
+.headerimg img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 35%;
+}
+
+.abouthead {
+  align-items: center;
+}
+
+.abouthead span {
+  height: 3px;
+  width: 10vw;
+  background: black;
+}
+
+.visionhead span {
+  height: 3px;
+  width: 5vw;
+  background: black;
+}
+
+.about {
+  background-image: url('./about.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.vision {
+  background-image: url('./bg_main.png');
+}
+
+.visioncomp h1 {
+  font-family: 'Montserrat';
+}
+
+.visioncomp p {
+  font-family: 'Montserrat';
+}
+
+.workhead {
+  background-image: url('./work.png');
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.project {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.project h5 {
+  padding-top: 20px;
+  font-family: 'Montserrat-Bold';
+}
+
+.inner {
+  overflow: hidden;
+  position: relative;
+}
+
+.inner img{
+  transition: all 1s ease;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner:hover .overlay{
+  opacity: 0.8;
+  transition: 0.75s all ease;
+}
+
+.inner:hover img{
+  transform: scale(1.2);
+  filter: grayscale(100);
+  transition: 0.75s all ease;
+}
+
+.workinfo {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.comphead {
+  background-image: url('./competition.png');
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.comp {
+  margin-top: 60px;
+  font-family: 'Montserrat';
+}
+
+.comp img {
+  width: 200px;
+  float: right;
+  margin-right: 60px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.compinfo {
+  text-align: center;
+}
+
+.profile {
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.profile h5 {
+  padding-top: 20px;
+}
+
+.profile a {
+  font-size: 1.5rem;
+  padding: .25rem;
+  text-decoration: none;
+}
+
+.pagebg {
+  background-color: #23241e;
+  height: 50vh;
+}
+
+.pagehead {
+  align-items: center;
+  height: 120%;
+  width: 100%;
+}
+
+.pagehead span {
+  height: 3px;
+  background: white;
+}
+
+.wrapper {
+  display: grid;
+  height: 250vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+      "box1 box1 box1 box1"
+      "box2 box3 box4 box4"
+      "box2 box5 box4 box4"
+      "box6 box7 box8 box9"
+      "box10 box7 box11 box12"
+      "box13 box13 box11 box14"
+      "box13 box13 box15 box16"
+      "box17 box18 box19 box19";
+  grid-gap: 0.6rem;
+  text-align: center;
+  padding: 50px 0px 50px 0px;
+}
+
+.gridinner {
+  overflow: hidden;
+  position: relative;
+}
+
+.gridinner img{
+  transition: all linear 0.4s;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.gridinner:hover img {
+  object-fit: cover;
+  transform: scale(0.95);
+  transition: 0.5s all ease;
+}
+
+.gridinner:hover .overlay {
+  opacity: 0.5;
+  transform: scale(0.95);
+  transition: 0.5s all ease;
+}
+
+.gallinfo h6 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+}
+
+#box1 {
+  grid-area: box1;
+}
+
+#box2 {
+  grid-area: box2;
+}
+
+#box3 {
+  grid-area: box3;
+}
+
+#box4 {
+  grid-area: box4;
+}
+
+#box5 {
+  grid-area: box5;
+}
+
+#box6 {
+  grid-area: box6;
+}
+
+#box7 {
+  grid-area: box7;
+}
+
+#box8 {
+  grid-area: box8;
+}
+
+#box9 {
+  grid-area: box9;
+}
+
+#box10 {
+  grid-area: box10;
+}
+
+#box11 {
+  grid-area: box11;
+}
+
+#box12 {
+  grid-area: box12;
+}
+
+#box13 {
+  grid-area: box13;
+}
+
+#box14 {
+  grid-area: box14;
+}
+
+#box15 {
+  grid-area: box15;
+}
+
+#box16 {
+  grid-area: box16;
+}
+
+#box17 {
+  grid-area: box17;
+}
+
+#box18 {
+  grid-area: box18;
+}
+
+#box19 {
+  grid-area: box19;
+}
+
+.sponsorhead {
+  align-items: center;
+}
+
+.sponsorhead span {
+  height: 3px;
+  width: 30vw;
+  background: black;
+}
+
+.sponsor img {
+  width: 23%;
+  padding: 20px 30px 20px 10px;
+  margin: 0 auto;
+}
+
+.form {
+  text-align: center;
+  float: left;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('./team.jpg');
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact {
+  background-image: url('./contact.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.contactinfo {
+  background-color: rgba(255,255,255, 0.8);
+  color: black;
+  font-size: 1.2rem;
+  height: 90vh;
+  font-family: "Montserrat";
+}
+
+.contacthead {
+  align-items: center;
+}
+
+.contacthead span {
+  height: 3px;
+  width: 10vw;
+  background: white;
+}
+
+.feedback-input {
+  color: white;
+  border-radius: 5px;
+  line-height: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 60%;
+  font-family: 'Montserrat';
+}
+
+.submit {
+  background-color: white;
+  color: black;
+  width: 30%;
+  transition: 0.7s;
+}
+
+.submit:hover {
+  border: 2px solid #14150f;
+  transition: 0.25s;
+  background-color: #14150f;
+  color: white;
+}
+
+.footer {
+  padding-top: 50px;
+  background-color: black;
+}
+
+.fa-facebook-f {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-youtube-play {
+  color: white;
+}
+
+.fa-linkedin-square {
+  color: #2867B2;
+}
+
+.fa-github-square {
+  color: #333;
+}
+
+@media screen and (min-width: 320px) {
+  .pagehead span {
+    width: 5vw ;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    height: 170vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .headerimg img {
+    width: 60%;
+  }
+
+  .aboutimg {
+    display: none;
+  }
+  
+  .visionhead span {
+    display: none;
+  }
+
+  .sponsor img {
+    width: 51%;
+    display: block;
+  }
+
+  .workinfo {
+    font-size: 0.5rem;
+  }
+
+  .inner {
+    width: 70%;
+  }
+
+  .project {
+    padding-top: 50px;
+  }
+  
+  .compinfo {
+    padding-top: 20px;
+  }
+
+  .profile img {
+    width: 40%;
+    display: block;
+  }
+
+  .pagehead span {
+    width: 25vw;
+  }
+
+  .wrapper {
+    height: 200vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-template-areas: 
+      "box1 box1"
+      "box2 box3"
+      "box2 box4"
+      "box5 box6"
+      "box7 box8"
+      "box7 box9"
+      "box10 box12"
+      "box13 box11"
+      "box14 box11"
+      "box15 box16"
+      "box17 box18"
+      "box19 box19";
+    padding: 10px;
+  }
+  
+  .gallinfo h6 {
+    font-size: 1rem;
+  }
+
+  .sponsorhead span {
+    width: 13vw;
+  }
+
+  .form {
+    height: 90vh;
+    float: none;
+  }
+
+  .contactinfo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .footerimg {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footerimg {
+    width: 10%;
+  }  
+}
+
+@media (min-width: 768px), (max-width: 1199) {
+  .pagehead span {
+    width: 40vw;
+  }
+}
+
+@media ( max-width: 991px ) {
+  .comp img {
+    float: none;
+    display: block;
+  }
+
+  .visioncomp {
+    text-align: center;
+  }
+  
+  .visioncomp h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .visioncomp h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .aboutimg {
+    display: none;
+  }
+
+  .about {
+    height: 110vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pagehead span {
+    width: 40vw;
+  }
+
+  .about {
+    height: 130vh;
+  }
+}
