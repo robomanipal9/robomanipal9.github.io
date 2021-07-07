@@ -30,16 +30,16 @@ const Header = (props) => {
 				<Collapse isOpen={isOpen} navbar className="order-xl-1">
 					<Nav className="ml-auto" navbar>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/rm-final/#/" className="navlink nav-link">HOME</a>
+	            <a href="/#/" className="navlink nav-link">HOME</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">					
 				  		<Link to="/#about" activeClass="active" scroll={el => scrollWithOffset(el, 98)} duration={2000} className="navlink nav-link">ABOUT US</Link>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/rm-final/#/work" className="navlink nav-link">WORK</a>
+	            <a href="/#/work" className="navlink nav-link">WORK</a>
 	          </NavItem>
 	        	<NavItem className="mx-auto navlink">
-	            <a href="/rm-final/#/competition" className="navlink nav-link">COMPETITIONS</a>
+	            <a href="/#/competition" className="navlink nav-link">COMPETITIONS</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink menu-container">
 	            <button onClick={onClick} href="/" className="navlink nav-link menu-trigger">
@@ -47,13 +47,13 @@ const Header = (props) => {
 							</button>
 							<nav ref={dropdownRef} className={`menu ${isActive ? 'active' : 'inactive'}`}>
 								<ul>
-									<li><a href="/rm-final/#/team">CURRENT TEAM</a></li>
-									<li><a href="/rm-final/#/alumni">OUR ALUMNI</a></li>
+									<li><a href="/#/team">CURRENT TEAM</a></li>
+									<li><a href="/#/alumni">OUR ALUMNI</a></li>
 								</ul>
 							</nav>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
-	            <a href="/rm-final/#/gallery" className="navlink nav-link">GALLERY</a>
+	            <a href="/#/gallery" className="navlink nav-link">GALLERY</a>
 	          </NavItem>
 	          <NavItem className="mx-auto navlink">
 							<Link to="/#sponsor" activeClass="active" spy={true} scroll={el => scrollWithOffset(el, 98)} duration={2000} className="navlink nav-link">SPONSORS</Link>	          
