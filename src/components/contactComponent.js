@@ -14,7 +14,7 @@ function Test() {
 			</div>
 			<div data-aos="fade-down" className="col-12 col-md-5 offset-md-7 contactinfo">
 				<div style={{ height: '50%', padding: '60px' }}>
-					<h5><b>Kaustubh Kuvalekar</b></h5>
+				<h5><b>Vismay Sharma</b></h5>
 					<h6>Team Leader</h6>
 					<address>
 						<br/>
@@ -23,7 +23,7 @@ function Test() {
           	Outside Kamath Circle, <br/>
           	Eshwar Nagar, Manipal, <br/>
           	Karnataka-576104 <br/> <br/>
-						<a href="tel:+919008147494" style={{ color: 'black' }}>+91 70667 33619</a> <br/> <br/>
+						<a href="tel:+919818834657" style={{ color: 'black' }}>+91 98188 34657</a> <br/> <br/>
 						<a href="mailto:team.robomanipal@gmail.com" style={{ color: 'black' }}>team.robomanipal@gmail.com</a>
 					</address>
 				</div>
