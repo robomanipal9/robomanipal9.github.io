@@ -164,13 +164,6 @@ function Team() {
           		<a href="https://github.com/HirakJR" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/mahendra.jpg" alt="Mahendra" />
-							<h5>Mahendra Pratap Singh</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/mahendra-singh-726995188/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://github.com/guyrip" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/sagnnik.jpg" alt="Sagnnik" />
 							<h5>Sagnnik Biswas</h5>
 							<p><strong>Member</strong></p>
@@ -223,12 +216,6 @@ function Team() {
           		<a href="https://github.com/Diwij" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/garvit.jpg" alt="Garvit" />
-							<h5>Garvit Gopalani</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://github.com/Garvit-g" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/kartikeya.jpg" alt="Kartikeya" />
 							<h5>Kartikeya Tiwari</h5>
 							<p><strong>Member</strong></p>
@@ -241,13 +228,6 @@ function Team() {
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/maanvi-singh-b163741a5/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
           		<a href="https://github.com/maanvisingh" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/mrityunjay.jpg" alt="Mrityunjay" />
-							<h5>Mrityunjay Shukla</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/mrityunjay-shukla-a066b5203/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://github.com/mrityunjayshukla411" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/naman.jpg" alt="Naman" />
@@ -291,12 +271,6 @@ function Team() {
 							<h5>Nikhil Poonacha</h5>
 							<p><strong>Senior Member</strong></p>
           		<a href="http://linkedin.com/in/nikhil-poonacha-9479b5188" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/joseph.jpg" alt="Joseph" />
-							<h5>Joseph Tonio David</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/joseph-tonio-david-108137201" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/rajan.jpg" alt="Rajan" />

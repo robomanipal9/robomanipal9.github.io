@@ -16,6 +16,48 @@ function Alumni() {
 			</div>
       <Container>
 				<div style={{ textAlign: 'center', paddingTop: '50px' }}>
+				<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>2020-21</h2><br></br>
+					<Row style={{ fontFamily: 'Montserrat' }}>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/kaustubh.jpg" alt="Kaustubh" />
+							<h5>Kaustubh Kuvalekar</h5>
+							<p><strong>Team Leader</strong></p>
+          		<a href="https://www.linkedin.com/in/kaustubh-kuvalekar-165079185/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/simran.jpg" alt="Simran" />
+							<h5>Simran Malhotra</h5>
+							<p><strong>Team Manager</strong></p>
+          		<a href="https://www.linkedin.com/in/simranmalhotramit/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+							<a href="https://github.com/malhotrasimran2000" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/harshvardhan.jpg" alt="Harshvardhan" />
+							<h5>Harshvardhan Reddy</h5>
+							<p><strong>Mechanical Head</strong></p>
+          		<a href="https://www.linkedin.com/in/harshavardhan-reddy-2256a1204" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/arthik.png" alt="Arthik" />
+							<h5>Arthik Raj B Jain</h5>
+							<p><strong>Electronics Head</strong></p>
+          		<a href="https://www.linkedin.com/in/arthik-raj-b-jain-6921911b9" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/abhishek.jpg" alt="Abhishek" />
+							<h5>Abhishek Deshpande</h5>
+							<p><strong>Coding Head</strong></p>
+							<a href="https://www.linkedin.com/in/abhishek-r-deshpande/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+							<a href="https://github.com/abhishekd-1" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/sahas.jpg" alt="Sahas" />
+							<h5>Sahas Agarwal</h5>
+							<p><strong>ARR Head</strong></p>
+          		<a href="https://www.linkedin.com/in/sahas-agarwal-58874b175/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+							<a href="https://github.com/Veverest" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+						</div>
+					</Row>
 					<h2 style={{ fontFamily: 'Montserrat-Bold' }}>2019-20</h2>
 					<Row style={{ fontFamily: 'Montserrat' }}>
 						<div className="col-xs-12 col-md-3 profile">
@@ -25,7 +67,7 @@ function Alumni() {
           		<a href="https://www.linkedin.com/in/kishor-ingale-817252152/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/alumni/shashank.png" alt="Shashank" />
+							<img src="assets/images/alumni/shashank.jpg" alt="Shashank" />
 							<h5>Shashank Goyal</h5>
 							<p><strong>Coding Head</strong></p>
           		<a href="https://www.linkedin.com/in/shashank-goyal-361362168/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
@@ -133,7 +175,7 @@ function Alumni() {
 						<h2 style={{ fontFamily: 'Montserrat-Bold' }}>ALUMNI COMPANIES</h2>
 						<img src="assets/images/strange.jpg" alt="Strange Matter" />
 						<img src="assets/images/xes.png" alt="XES Automation" />
-						<a href="https://fracktal.in/" target="_blank" rel="noreferrer"><img src="assets/images/fracktal.jpg" alt="Fracktal Works" /></a>
+    				<a href="https://fracktal.in/" target="_blank" rel="noreferrer"><img src="assets/images/fracktal.jpg" alt="Fracktal Works" /></a>
 						<a href="https://www.credencerobotics.com/" target="_blank" rel="noreferrer"><img src="assets/images/credence.png" alt="Credence Robotics" /></a>
 					</div>
 					</Row>
