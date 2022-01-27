@@ -190,7 +190,7 @@ function Team() {
           		<a href="https://github.com/Ad1th1" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/adithi.jpeg" alt="Jinay" />
+							<img src="assets/images/team/jinay.jpg" alt="Jinay" />
 							<h5>Jinay Jhaveri</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/jinay-jhaveri-41502b204" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
@@ -234,7 +234,7 @@ function Team() {
           		<a href="http://www.linkedin.com/in/anwesha-bhattacharjee-4b198b17a" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/jaishnav.JPG" alt="Jaishnav" />
+							<img src="assets/images/team/jaishnav.jpg" alt="Jaishnav" />
 							<h5>Jaishnav Gopi</h5>
 							<p><strong>Senior Member</strong></p>
           		<a href="https://www.linkedin.com/in/jaishnavgopi/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
