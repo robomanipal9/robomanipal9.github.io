@@ -78,7 +78,7 @@
 }
 
 .workhead {
-  background-image: url('./work.png');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./work.jpg');
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -137,7 +137,7 @@
 }
 
 .comphead {
-  background-image: url('./competition.png');
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./competition.jpg');
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -148,17 +148,28 @@
   font-family: 'Montserrat';
 }
 
+.othercomp {
+  margin-top: 30px;
+}
+
 .comp img {
-  width: 200px;
+  width: 250px;
   float: right;
-  margin-right: 60px;
+  margin-right: 80px;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
 }
 
 .compinfo {
-  text-align: center;
+  text-align: left;
+}
+
+.teambg {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./team1.JPG');
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .profile {

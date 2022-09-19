@@ -14,38 +14,46 @@ const About = () => {
     <div className="about">
 			<Container>
 				<div data-aos="fade-down" className="col-xl-4">
-					<img className="aboutimg" src="./assets/images/about1.jpg" alt="Robo_Portrait" style={{ float: 'left', height: '80vh' }}/>	
+					<div>
+						<img className="aboutimg" src="./assets/images/about1.jpg" alt="Robo_Portrait" style={{ float: 'left', paddingTop: '50px',height: '80vh' }}/>	
+						{/* <img className="aboutimg" src="./assets/images/about1.png" alt="Robo_Portrait" style={{ float: 'left', paddingTop: '50px',height: '50vh' }}/>	 */}
+					</div>
 				</div>
-				<div data-aos="fade-right" className="col-12 col-xl-6" style={{ float: 'right', textAlign: 'center' }}>
+				<div data-aos="fade-right" className="col-12 col-xl-6" style={{ float: 'right', textAlign: 'left' }}>
 					<Row className=" justify-content-center abouthead" style={{ paddingTop: '50px' }}>
 						<span></span>  
 						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   ABOUT US   </h3>
 						<span></span>
 					</Row>
 					<p style={{ fontFamily: 'Montserrat' }}>
-						Team RoboManipal is the official robotics student project of Manipal Institute of Technology.
-						The team is embraced by sedulous members who constantly aim to achieve innovation through robotic technology to present
-						themselves at various competitions. We are a group of coding, mechanical, electronics, advanced robotic research, 
-						and management aficionados who work unitedly for what we “dream, build, and achieve.”
+						Team RoboManipal is the official Robotics team of MAHE, Manipal established in 2009. We are a multidisciplinary team of 40+ 
+						undergraduate robotics enthusiasts who endeavour to achieve innovation through robotic technologies and spread knowledge about 
+						its diverse applications.
 					</p>
 					<p style={{ fontFamily: 'Montserrat' }}>
-						We also drive towards Research and Development for the betterment of society. The team has been in the progress of 
-						greater triumph since 2009. The legacy of 11 years to have won laurels at many levels is a testament to our enthusiasm.  
-						We participate in prestigious competitions like ABU ROBOCON – Asia’s biggest robotic competition. We are proud to mark 
-						ourselves in the competition over the years. Robowars- the most alluring event of Techtatva is a constituent of RoboManipal.
+						The legacy of 13 years to have won laurels at many levels is a testament to our enthusiasm. We participate in prestigious 
+						competitions like ABU ROBOCON - Asia’s biggest Robotic Competition. Robotreks and Robowars, the most exciting events of 
+						TechTatva which attract teams from all over India, are organised by RoboManipal. Apart from all this, we’re also working on 
+						various research projects, including the 6DOF , A Biped (Humanoid) Robot and a Quadruped Robot.
 					</p>
-					<Row className=" justify-content-center visionhead" style={{ paddingTop: '30px', alignItems: 'center' }}>
+					<Row className=" justify-content-center visionhead" style={{ paddingTop: '10px', alignItems: 'center' }}>
 						<span></span>  
-						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   VISION AND MISSION   </h3>
+						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   VISION   </h3>
 						<span></span>
 					</Row>
 					<p style={{ fontFamily: 'Montserrat' }}>
-						Our team strongly believes in a future for robotics that will take the world forward with innovative technologies and enrich
-						human lives to create a better tomorrow.
+						Our team strongly believes in a future for robotics that will take the world forward with innovative technologies and 
+						enrich human lives to create an environment conducive to creativity.
 					</p>
+					<Row className=" justify-content-center visionhead" style={{ paddingTop: '10px', alignItems: 'center' }}>
+						<span></span>  
+						<h3 style={{color: 'black', fontFamily: 'Montserrat-Bold' }}>   MISSION   </h3>
+						<span></span>
+					</Row>
 					<p style={{ paddingBottom:'30px', fontFamily: 'Montserrat' }}>
-						As students with unlimited passion for robotics, we indulge ourselves in building robots and compete in some of the toughest
-						competitions in the world. Our innovation starts with a DREAM to elucidate problems as we BUILD solutions to ACHIEVE the limitless. 
+						We strive to formulate effective solutions to complex problems with the help of Robotics and its applications and compete 
+						in the toughest Robotics competitions in the world. Our innovation starts with a DREAM to elucidate problems as we BUILD 
+						solutions to ACHIEVE the limitless. 
 					</p>
 				</div>
 			</Container>

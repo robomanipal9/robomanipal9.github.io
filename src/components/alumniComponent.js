@@ -16,7 +16,50 @@ function Alumni() {
 			</div>
       <Container>
 				<div style={{ textAlign: 'center', paddingTop: '50px' }}>
-				<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>2020-21</h2><br></br>
+				<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>2021-22</h2><br></br>
+				<Row style={{ fontFamily: 'Montserrat' }}>
+				<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/vismay.jpg" alt="Vismay" />
+							<h5>Vismay Sharma</h5>
+							<p><strong>Team Leader</strong></p>
+          		<a href="https://www.linkedin.com/in/vismay-sharma-500015204" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+							<a href="https://github.com/The-GodfatherC4" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+						<img src="assets/images/alumni/laaboni.jpg" alt="Laaboni" />
+							<h5>Laaboni Mukerjee</h5>
+							<p><strong>Team Manager</strong></p>
+          		<a href="https://www.linkedin.com/in/laaboni-mukerjee-16b34b188/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+          		<a href="https://github.com/Laaboni" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/manu.jpg" alt="Manu" />
+							<h5>Manu Jain</h5>
+							<p><strong>Mechanical Head</strong></p>
+          		<a href="https://www.linkedin.com/in/manu-jain-1509b31b3" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/shubham.jpg" alt="Shubham" />
+							<h5>Shubham Yadav</h5>
+							<p><strong>Electronics Head</strong></p>
+          		<a href="https://www.linkedin.com/mwlite/in/shubham-yadav-57a447204" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/pranjal.jpg" alt="Pranjal" />
+							<h5>Pranjal Mishra</h5>
+							<p><strong>Coding Head</strong></p>
+          		<a href="https://www.linkedin.com/in/pranjal-mishra-3a79b0196/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+          		<a href="https://github.com/Pranjalmishra30" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+						</div>
+						<div className="col-xs-12 col-md-4 profile">
+							<img src="assets/images/alumni/saisindhu.jpg" alt="Sahas" />
+							<h5>Saisindhu Valluri</h5>
+							<p><strong>Management Head</strong></p>
+          		<a href="https://www.linkedin.com/in/saisindhu-s-aa42b1204" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+          		<a href="https://github.com/Saisindhu-valluri" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
+						</div>
+					</Row>
+					<h2 style={{ fontFamily: 'Montserrat-Bold' }}>2020-21</h2>
 					<Row style={{ fontFamily: 'Montserrat' }}>
 						<div className="col-xs-12 col-md-4 profile">
 							<img src="assets/images/alumni/kaustubh.jpg" alt="Kaustubh" />
