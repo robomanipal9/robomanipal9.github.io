@@ -192,13 +192,6 @@ function Team() {
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/daksh-agiwal-0758ab249" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Sanjaya" />
-							<h5>Sanjaya Bhat</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/sanjaya-bhat-27828b221/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-          		<a href="https://github.com/sanjayabhatc" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
 					</Row>
 					<h2 style={{ paddingTop: '30px', fontFamily: 'Montserrat-Bold' }}>Management</h2><br></br>
 					<div data-aos="fade-left">
@@ -215,12 +208,6 @@ function Team() {
 							<h5>Aayushi Jain</h5>
 							<p><strong>Member</strong></p>
           		<a href="https://www.linkedin.com/in/aayushi-jain-283266230" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/robologo.png" alt="Gagan" />
-							<h5>Gagan</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/gagan-m-8703b024a " target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/jayesh.png" alt="Jayesh" />
