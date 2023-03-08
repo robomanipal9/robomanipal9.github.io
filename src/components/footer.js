@@ -31,7 +31,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <p style={{color: '#FFF', fontFamily: 'Montserrat' }}>© 2022 Team RoboManipal</p>
+          <p style={{color: '#FFF', fontFamily: 'Montserrat' }}>© 2023 Team RoboManipal</p>
         </div>
 		  </div>
     </div>
