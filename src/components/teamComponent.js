@@ -87,13 +87,6 @@ function Team() {
           		<a href="https://github.com/Niharbhandary" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
 						</div>
 						<div className="col-xs-12 col-md-3 profile">
-							<img src="assets/images/team/arjun.png" alt="Arjun" />
-							<h5>Arjun</h5>
-							<p><strong>Member</strong></p>
-          		<a href="https://www.linkedin.com/in/arjun-nair-44645322b/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
-							<a href="https://github.com/ARJUNSMART123" target="_blank" rel="noreferrer"><i className="fa fa-github-square"></i></a>
-						</div>
-						<div className="col-xs-12 col-md-3 profile">
 							<img src="assets/images/team/arnavI.png" alt="ArnavI" />
 							<h5>Arnav Inamdar</h5>
 							<p><strong>Member</strong></p>
