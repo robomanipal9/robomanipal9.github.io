@@ -17,11 +17,12 @@ function Sponsor () {
 					<a href="https://www.oyorooms.com/" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/oyo.png" alt="Oyo" /></a>
 					<a href="https://www.thesouledstore.com/" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/souledstore.jpg" alt="Souled Store" /></a>
 					<a href="https://www.intel.in/content/www/in/en/homepage.html" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/intel.png" alt="Intel" /></a>
-    			<a href="https://fracktal.in/" target="_blank" rel="noreferrer"><img src="assets/images/fracktal.jpg" alt="Fracktal Works" /></a>
+    			<a href="https://fracktal.in/" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/fracktal.jpg" alt="Fracktal Works" /></a>
 					<a href="https://www.pcbpower.com/" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/pcb.png" alt="PCB" /></a>
-					<a href="https://www.credencerobotics.com/" target="_blank" rel="noreferrer"><img src="assets/images/credence.png" alt="Credence Robotics" /></a>
+					<a href="https://www.credencerobotics.com/" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/credence.png" alt="Credence Robotics" /></a>
 					<a href="https://www.augment3di.com/" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/augment.png" alt="Augment 3Di" /></a>
-					<img src="assets/images/strange.jpg" alt="Strange Matter" />
+					<img src="assets/images/sponsor/strange.jpg" alt="Strange Matter" />
+					<img src="assets/images/sponsor/altium.png" alt="Altium" />
 				</div>
 			</Container>
     </div>

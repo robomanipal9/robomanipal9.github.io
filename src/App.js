@@ -4,7 +4,6 @@ import { NavHashLink as Link } from 'react-router-hash-link';
 
 import Home from './components/homeComponent.js';
 // import About from './components/aboutComponent'
-import Vision from './components/visionComponent'
 import Work from './components/workComponent'
 import Competition from './components/competitionComponent'
 import Alumni from './components/alumniComponent'
@@ -19,7 +18,6 @@ function App() {
       <Router basename="/">
       	<Switch>
       		<Route exact path="/" component={Home} />
-          <Route exact path="/vsion" component={Vision} />
           <Route path="/work" component={Work} />
           <Route path="/competition" component={Competition} />
           <Route path="/alumni" component={Alumni} />
