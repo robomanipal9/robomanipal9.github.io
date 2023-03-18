@@ -16,7 +16,7 @@
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.3.1",
     "react-router-hash-link-offset": "^1.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.8.1",
     "reactstrap": "^8.7.1",
     "styled-components": "^5.2.1",
