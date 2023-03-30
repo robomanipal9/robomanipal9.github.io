@@ -22,7 +22,7 @@ function Sponsor () {
 					<a href="https://www.credencerobotics.com/" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/credence.png" alt="Credence Robotics" /></a>
 					<a href="https://www.augment3di.com/" target="_blank" rel="noreferrer"><img src="assets/images/sponsor/augment.png" alt="Augment 3Di" /></a>
 					<img src="assets/images/sponsor/strange.jpg" alt="Strange Matter" />
-					<img src="assets/images/sponsor/altium.png" alt="Altium" />
+					<a href='https://www.altium.com/' target="_blank" rel='noreferrer' ><img src="assets/images/sponsor/altium.png" alt="Altium" /></a>
 				</div>
 			</Container>
     </div>

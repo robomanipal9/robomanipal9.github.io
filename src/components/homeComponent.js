@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './header.js';
 import About from './aboutComponent.js';
-// import Vision from './visionComponent'
 import Sponsor from './sponsorComponent'
 import Contact from './contactComponent'
 import Footer from './footer.js';
