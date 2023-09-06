@@ -1,19 +1,19 @@
-import React from 'react'
-import { Container, Row } from 'reactstrap'
-import Header from './header.js'
-import Footer from './footer.js'
+import React from "react";
+import { Container, Row } from "reactstrap";
+import Header from "./header.js";
+import Footer from "./footer.js";
 
 const Gallery = () => {
-  return (
-    <div id="gallery">
-      <Header />
+	return (
+		<div id="gallery">
+			<Header />
 			<div className="pagebg">
 				<Row className="justify-content-center pagehead">
 					{/* <span></span>   */}
-					<h3 style={{color: 'white', fontFamily: 'Montserrat-Bold' }}>   GALLERY   </h3>
+					<h3 style={{ color: "white", fontFamily: "Montserrat-Bold" }}> GALLERY </h3>
 					{/* <span></span> */}
 				</Row>
-    	</div>
+			</div>
 			<Container>
 				<Row>
 					<div className="wrapper">
@@ -174,7 +174,7 @@ const Gallery = () => {
 			</Container>
 			<Footer />
 		</div>
-  )
-}
+	);
+};
 
-export default Gallery
+export default Gallery;

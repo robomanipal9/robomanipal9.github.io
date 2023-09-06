@@ -1,33 +1,32 @@
-import React from 'react';
-import Header from './header.js';
-import About from './aboutComponent.js';
-import Sponsor from './sponsorComponent'
-import Contact from './contactComponent'
-import Footer from './footer.js';
+import React from "react";
+import Header from "./header.js";
+import About from "./aboutComponent.js";
+import Sponsor from "./sponsorComponent";
+import Contact from "./contactComponent";
+import Footer from "./footer.js";
 
-function Home(){
+function Home() {
 	return (
-		<div>
+		<div style={{ overflowX: "hidden" }}>
 			<div className="header" id="header">
 				<Header />
-				<div className="headerimg" style={{ position: 'absolute', width: '100%', height: '100%' }}>
+				<div className="headerimg" style={{ position: "absolute", width: "100%", height: "100%" }}>
 					<img src="assets/images/rm_logo.png" alt="RM Logo" />
 				</div>
-				
 			</div>
-			<div id='about'>
-				<About/>	
+			<div id="about">
+				<About />
 			</div>
 			{/* <Vision />		 */}
-			<div id='sponsor'>
-				<Sponsor/>	
+			<div id="sponsor">
+				<Sponsor />
 			</div>
-			<div id='contact'>
-				<Contact/>	
+			<div id="contact">
+				<Contact />
 			</div>
 			<Footer />
 		</div>
-	)
+	);
 }
 
 export default Home;

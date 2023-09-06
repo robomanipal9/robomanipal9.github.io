@@ -12,11 +12,11 @@
     "bootstrap": "^4.5.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-icons": "^4.1.0",
+    "react-icons": "^4.10.1",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.3.1",
     "react-router-hash-link-offset": "^1.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.1",
     "reactstrap": "^8.7.1",
     "styled-components": "^5.2.1",
@@ -28,7 +28,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write ."
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": true,
+    "printWidth": 120,
+    "bracketSpacing": true,
+    "bracketSameLine": true
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +59,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.0"
+    "gh-pages": "^3.2.3",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.3"
   }
 }
