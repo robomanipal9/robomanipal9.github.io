@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6036e5c.chunk.css",
-    "main.js": "/static/js/main.e7f33e0a.chunk.js",
-    "main.js.map": "/static/js/main.e7f33e0a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.014dd6fd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.014dd6fd.js.map",
-    "static/css/2.560fa9dd.chunk.css": "/static/css/2.560fa9dd.chunk.css",
-    "static/js/2.a7a3be45.chunk.js": "/static/js/2.a7a3be45.chunk.js",
-    "static/js/2.a7a3be45.chunk.js.map": "/static/js/2.a7a3be45.chunk.js.map",
+    "main.css": "/static/css/main.50db23a5.css",
+    "main.js": "/static/js/main.82c516cf.js",
+    "static/media/work.jpg": "/static/media/work.c7803013f83ba13406c0.jpg",
+    "static/media/competition.jpg": "/static/media/competition.71101f2f91e8c851f469.jpg",
+    "static/media/team.jpg": "/static/media/team.3e1c4c6c5642c1dcfd14.jpg",
+    "static/media/team1.JPG": "/static/media/team1.84d5add490977e4bcba9.JPG",
+    "static/media/about.png": "/static/media/about.478c28a58419595e7e93.png",
+    "static/media/bg_main.png": "/static/media/bg_main.628533fed6022ba7ea8b.png",
+    "static/media/contact.png": "/static/media/contact.c19bd0f9b43864576ed6.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
     "index.html": "/index.html",
-    "static/css/2.560fa9dd.chunk.css.map": "/static/css/2.560fa9dd.chunk.css.map",
-    "static/css/main.f6036e5c.chunk.css.map": "/static/css/main.f6036e5c.chunk.css.map",
-    "static/js/2.a7a3be45.chunk.js.LICENSE.txt": "/static/js/2.a7a3be45.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/work.c7803013.jpg"
+    "main.50db23a5.css.map": "/static/css/main.50db23a5.css.map",
+    "main.82c516cf.js.map": "/static/js/main.82c516cf.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.014dd6fd.js",
-    "static/css/2.560fa9dd.chunk.css",
-    "static/js/2.a7a3be45.chunk.js",
-    "static/css/main.f6036e5c.chunk.css",
-    "static/js/main.e7f33e0a.chunk.js"
+    "static/css/main.50db23a5.css",
+    "static/js/main.82c516cf.js"
   ]
 }
