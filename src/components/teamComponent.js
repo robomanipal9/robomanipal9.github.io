@@ -376,7 +376,7 @@ function Team() {
 								</a>
 							</div>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/rohan.jpg" alt="Hriday" />
+								<img src="assets/images/team/hriday.jpg" alt="Hriday" />
 								<h5>Hriday Raizada</h5>
 								<p>
 									<strong>Member</strong>
