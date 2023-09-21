@@ -201,7 +201,7 @@ function Team() {
 						</div>
 						<Row style={{ fontFamily: "Montserrat" }}>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/pranav.png" alt="Pranav" />
+								<img src="assets/images/team/pranav.jpg" alt="Pranav" />
 								<h5>Pranav Menon</h5>
 								<p>
 									<strong>Member</strong>
@@ -233,7 +233,7 @@ function Team() {
 								</a>
 							</div>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/tarun.png" alt="Tarun" />
+								<img src="assets/images/team/tarun.jpg" alt="Tarun" />
 								<h5>Tarun Murugan</h5>
 								<p>
 									<strong>Member</strong>
@@ -249,7 +249,7 @@ function Team() {
 								</a>
 							</div>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/triyan.png" alt="Triyan" />
+								<img src="assets/images/team/triyan.jpg" alt="Triyan" />
 								<h5>Triyan Mukherjee</h5>
 								<p>
 									<strong>Member</strong>
@@ -262,6 +262,26 @@ function Team() {
 								</a>
 								<a href="https://github.com/FallenDeity" target="_blank" rel="noreferrer">
 									<i className="fa fa-github-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/anirudh.jpg" alt="Anirudh" />
+								<h5>Anirudh Swaminathan</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a href="https://github.com/hyperiqn" target="_blank" rel="noreferrer">
+									<i className="fa fa-github-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/sahil.jpg" alt="Sahil" />
+								<h5>Sahil Natikar</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a href="mailto:sahil.natikar@gmail.com" target="_blank" rel="noreferrer">
+									<i className="fa fa-envelope-square"></i>
 								</a>
 							</div>
 						</Row>
@@ -282,7 +302,7 @@ function Team() {
 						</div>
 						<Row style={{ fontFamily: "Montserrat" }}>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/manan.png" alt="Manan" />
+								<img src="assets/images/team/manan.jpg" alt="Manan" />
 								<h5>Manan Khandelwal</h5>
 								<p>
 									<strong>Member</strong>
@@ -298,7 +318,7 @@ function Team() {
 								</a>
 							</div>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/apoorv.png" alt="Apoorv" />
+								<img src="assets/images/team/apoorv.jpg" alt="Apoorv" />
 								<h5>Apoorv Khemani</h5>
 								<p>
 									<strong>Member</strong>
@@ -330,7 +350,7 @@ function Team() {
 								</a>
 							</div>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/siddharth.png" alt="Siddharth" />
+								<img src="assets/images/team/siddharth.jpg" alt="Siddharth" />
 								<h5>Penugonda Siddharth</h5>
 								<p>
 									<strong>Member</strong>
@@ -343,13 +363,26 @@ function Team() {
 								</a>
 							</div>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/rohan.png" alt="Rohan" />
+								<img src="assets/images/team/rohan.jpg" alt="Rohan" />
 								<h5>P V Rohan</h5>
 								<p>
 									<strong>Member</strong>
 								</p>
 								<a
 									href="http://linkedin.com/in/rohan-parankusam-venkat-11b15826a"
+									target="_blank"
+									rel="noreferrer">
+									<i className="fa fa-linkedin-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/rohan.jpg" alt="Hriday" />
+								<h5>Hriday Raizada</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a
+									href="https://www.linkedin.com/in/hriday-raizada-9489b3251"
 									target="_blank"
 									rel="noreferrer">
 									<i className="fa fa-linkedin-square"></i>
@@ -376,7 +409,7 @@ function Team() {
 						</div>
 						<Row style={{ fontFamily: "Montserrat" }}>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/mihir.png" alt="Mihir" />
+								<img src="assets/images/team/mihir.jpg" alt="Mihir" />
 								<h5>Mihir Kiran</h5>
 								<p>
 									<strong>Member</strong>
@@ -392,7 +425,7 @@ function Team() {
 								</a>
 							</div>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/tejas.png" alt="Tejas" />
+								<img src="assets/images/team/tejas.jpg" alt="Tejas" />
 								<h5>Tejas Kodandera</h5>
 								<p>
 									<strong>Member</strong>
@@ -404,6 +437,22 @@ function Team() {
 									<i className="fa fa-linkedin-square"></i>
 								</a>
 								<a href="https://github.com/mkk48" target="_blank" rel="noreferrer">
+									<i className="fa fa-github-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/ishaan.jpg" alt="Ishaan" />
+								<h5>Ishaan Deshmukh</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a
+									href="https://www.linkedin.com/in/ishan-deshmukh-3b7412247"
+									target="_blank"
+									rel="noreferrer">
+									<i className="fa fa-linkedin-square"></i>
+								</a>
+								<a href="https://github.com/Ishan-tron" target="_blank" rel="noreferrer">
 									<i className="fa fa-github-square"></i>
 								</a>
 							</div>
@@ -427,7 +476,7 @@ function Team() {
 						</div>
 						<Row style={{ fontFamily: "Montserrat" }}>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/dhruv.png" alt="Dhruv" />
+								<img src="assets/images/team/dhruv.jpg" alt="Dhruv" />
 								<h5>Dhruv Mehta</h5>
 								<p>
 									<strong>Member</strong>
@@ -443,7 +492,7 @@ function Team() {
 								</a>
 							</div>
 							<div className="col-xs-12 col-md-3 profile">
-								<img src="assets/images/team/pratyush.png" alt="Pratyush" />
+								<img src="assets/images/team/pratyush.jpg" alt="Pratyush" />
 								<h5>Pratyush Agrawal</h5>
 								<p>
 									<strong>Member</strong>
@@ -466,6 +515,45 @@ function Team() {
 								</p>
 								<a
 									href="https://www.linkedin.com/in/milind-kiran-25414124b/"
+									target="_blank"
+									rel="noreferrer">
+									<i className="fa fa-linkedin-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/sannidhi.jpg" alt="Sannidhi" />
+								<h5>Sannidhi D Math</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a
+									href="https://www.linkedin.com/in/milind-kiran-25414124b/"
+									target="_blank"
+									rel="noreferrer">
+									<i className="fa fa-linkedin-square"></i>
+								</a>
+								<a href="https://github.com/Sannidhi20040" target="_blank" rel="noreferrer">
+									<i className="fa fa-github-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/madhav.jpg" alt="Madhav" />
+								<h5>Madhav Kumar</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a href="mailto:madhavkumar0211@gmail.com" target="_blank" rel="noreferrer">
+									<i className="fa fa-envelope-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/ojasvi.jpg" alt="Ojasvi" />
+								<h5>Ojasvi Omjith</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a
+									href="https://www.linkedin.com/in/ojasvi-ohmjith-525373288"
 									target="_blank"
 									rel="noreferrer">
 									<i className="fa fa-linkedin-square"></i>
@@ -519,7 +607,7 @@ function Team() {
 									rel="noreferrer">
 									<i className="fa fa-linkedin-square"></i>
 								</a>
-								<a href="https://github.com/pratyushagrawal01" target="_blank" rel="noreferrer">
+								<a href="https://github.com/Shvrth" target="_blank" rel="noreferrer">
 									<i className="fa fa-github-square"></i>
 								</a>
 							</div>
@@ -531,6 +619,32 @@ function Team() {
 								</p>
 								<a
 									href="https://www.linkedin.com/in/srikar-bharadwaj-r-602341248/"
+									target="_blank"
+									rel="noreferrer">
+									<i className="fa fa-linkedin-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/aryaman.jpg" alt="Aryaman" />
+								<h5>Aryaman Gupta</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a
+									href="https://www.linkedin.com/in/aryaman-gupta-72319b269"
+									target="_blank"
+									rel="noreferrer">
+									<i className="fa fa-linkedin-square"></i>
+								</a>
+							</div>
+							<div className="col-xs-12 col-md-3 profile">
+								<img src="assets/images/team/preetham.jpg" alt="Preetham" />
+								<h5>Sai Preetham Gajulapalle</h5>
+								<p>
+									<strong>Member</strong>
+								</p>
+								<a
+									href="https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav"
 									target="_blank"
 									rel="noreferrer">
 									<i className="fa fa-linkedin-square"></i>
