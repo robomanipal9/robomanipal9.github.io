@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.790c8d7d.css",
-    "main.js": "/static/js/main.b503d387.js",
+    "main.js": "/static/js/main.84e6d447.js",
     "static/media/work.jpg": "/static/media/work.c7803013f83ba13406c0.jpg",
     "static/media/competition.jpg": "/static/media/competition.71101f2f91e8c851f469.jpg",
     "static/media/team.jpg": "/static/media/team.3e1c4c6c5642c1dcfd14.jpg",
@@ -13,10 +13,10 @@
     "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
     "index.html": "/index.html",
     "main.790c8d7d.css.map": "/static/css/main.790c8d7d.css.map",
-    "main.b503d387.js.map": "/static/js/main.b503d387.js.map"
+    "main.84e6d447.js.map": "/static/js/main.84e6d447.js.map"
   },
   "entrypoints": [
     "static/css/main.790c8d7d.css",
-    "static/js/main.b503d387.js"
+    "static/js/main.84e6d447.js"
   ]
 }
